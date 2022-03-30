@@ -43,7 +43,12 @@ Furious googling, opening MDN Web Docs continuously, tons of tabs and sleepless 
 
 ### What I learned
 
-Flexbox was a new concept for me. The practice of CSS structure was nice. 
+Flexbox is not a panacea to positioning issues.
+
+Setting `border-radius` of the inner square smaller than outer square makes them look more harmonious.
+
+Shadows are very, very hard.
+
 
 ### Continued development
 
