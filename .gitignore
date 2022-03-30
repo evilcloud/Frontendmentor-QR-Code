@@ -15,6 +15,7 @@
 .DS_Store
 .prettierignore
 
+.idea
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,webstorm,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,webstorm,visualstudiocode
