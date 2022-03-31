@@ -7,23 +7,32 @@
 }
 
 body {
+
+}
+
+.text {
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
     color: hsl(218, 44%, 22%);
     text-align: center;
 }
 
+.qr-text {
+    padding: 5px 20px 25px 20px;
+}
 
-.qr-text .bold {
-    font-weight: 700;
+p {
     padding-top: 20px;
-    font-size: 1.2rem;
+}
+
+.text .bold {
+    font-weight: 700;
+    font-size: 1.5rem;
     color: hsl(218, 44%, 22%);
 }
 
-.qr-text .normal {
+.text .normal {
+    font-size: 1.0rem;
     font-weight: 400;
-    padding: 15px 5px 20px 5px;
     color: hsl(220, 15%, 55%);
 }
 
@@ -32,27 +41,26 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /*background-color: rgb(240, 240, 240);*/
-    background-color: hsl(212, 45%, 89%);
+    background-color: rgb(240, 240, 240);
 
 }
 
 
-/*.background-box {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    height: 80vh;*/
-/*    width: 80%;*/
-/*    background-color: hsl(212, 45%, 89%);*/
-/*    box-shadow: 0 15px 10px -17px hsl(220, 15%, 55%);*/
-/*}*/
+.background-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 80%;
+    background-color: hsl(212, 45%, 89%);
+    box-shadow: 0 15px 10px -17px hsl(220, 15%, 55%);
+}
 
 .qr-card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     padding: 15px;
-    width: 250px;
+    width: 320px;
     box-shadow: 0 15px 10px -17px hsl(220, 15%, 55%);
 }
 
@@ -60,8 +68,8 @@ body {
     position: relative;
     border-radius: 10px;
     background-image: url("images/image-qr-code.png");
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
     background-size: cover;
 }
 
